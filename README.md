@@ -23,7 +23,7 @@ python main.py
 引入这一概念是为了对罕见的词赋予一个高的权重  
 ### **tf-idf**权值矩阵
 词项**t**在文档**d**中的权重可以采用下式计算：
-![avatar](doc/tfidf.png)  
+![Alt text](doc/tfidf.png)
 这样我们可以得到文档-词项的权值矩阵，查询时我们以相同的计算方法求得查询内容的tf-idf向量，再和每一文档求余弦相似度，即可找出“最相似”的文档
 ### 查询的详细算法
-![avatar](doc/algo.png)
+![Alt text](doc/algo.png)
